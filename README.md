@@ -1,2 +1,0 @@
-# dnslist
-Domain list generator

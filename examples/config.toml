@@ -1,0 +1,35 @@
+[source.yoyo]
+url = "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0"
+
+[source.malwaredomains]
+url = "https://mirror1.malwaredomains.com/files/justdomains"
+
+[source.zeus]
+url = "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
+
+[source.disconnectme_ad]
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
+
+[source.disconnectme_malware]
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt"
+filter = "^([^\\s]+)$"
+
+[source.disconnectme_tracking]
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
+filter = "^([^\\s]+)$"
+
+[source.disconnectme_malvertising]
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
+filter = "^([^\\s]+)$"
+
+[source.adaway]
+url = "https://adaway.org/hosts.txt"
+filter = "^127.0.0.1 ([^\\s]+)"
+
+[source.swc]
+url = "https://someonewhocares.org/hosts/hosts"
+filter = "^127.0.0.1 ([^\\s]+)"
+
+[source.malc0de]
+url = "https://malc0de.com/bl/BOOT"
+filter = "^PRIMARY ([^\\s]+)"

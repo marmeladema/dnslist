@@ -1,0 +1,1 @@
+zone "{{ domain }}"  {type master; file "/etc/bind/null.zone.file";};"
