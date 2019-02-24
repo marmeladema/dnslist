@@ -50,9 +50,8 @@ You will more lilely want to use the executable directly.
 Configuration
 -------------
 
-First, you will need to create a configuration file with toml syntax:
+First, you will need to create a configuration file with toml syntax::
 
-.. code-block:: TOML
     [source.yoyo]
     url = "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0"
 
@@ -61,7 +60,7 @@ This file should most likely resides in ~/.config/dnslst/config.toml
 Generation
 ----------
 
-Then you can just execute the dnslist executable tool.
+Then you can just execute the dnslist executable tool::
 
     $ dnslist domains.txt
 
@@ -71,13 +70,14 @@ Template
 --------
 
 You can customize how the generated file looks like by providing a moustache
-template:
+template::
 
     $ dnslist -t <path/to/template.moustache> domains.txt
 
 If you need help with moustache syntax, you can check out the:
-* Officiel moustache website: https://mustache.github.io/
-* Underlying rendering module: https://github.com/noahmorrison/chevron
+
+- Officiel moustache website: https://mustache.github.io/
+- Underlying rendering module: https://github.com/noahmorrison/chevron
 
 Examples
 --------
